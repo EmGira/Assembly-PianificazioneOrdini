@@ -145,7 +145,7 @@ leggichar:
     cmpb $44, %al
     je num_char_par
     
-    cmpb $13, %al
+    cmpb $10, %al
     je num_char_par
 
     cmpl $0, %ecx
